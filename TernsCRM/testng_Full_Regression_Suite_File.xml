@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest"/>
+			<include name="RegressionTest"/>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="com.crm.tp.terns.quotestest.CreateQutoesTest"/>
+		<class name="com.crm.tp.terns.quotestest.DeleteQuoteTest"/>
+      <class name="com.crm.tp.terns.vendorstest.VendorTest"/>
+      <class name="com.crm.tp.terns.quotestest.EditQuotesTest"/>
+      <class name="com.crm.tp.terns.productstest.CreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

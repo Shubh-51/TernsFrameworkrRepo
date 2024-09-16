@@ -42,12 +42,13 @@ public class BaseClass {
 		System.out.println("=======ConnnectToDB==========");
 	}
 	
-	@Parameters("BROWSER")
+	//@Parameters("BROWSER")
 	@BeforeClass(groups= {"SmokeTest","RegressionTest"})
-	public void configBC(String Browser) throws IOException {
+	public void configBC() throws IOException {
 		System.out.println("=====LaunchTheBrowser=======");
 		//String browser=flib.getDataFromPropertiesFile("browser");
-		String browser=Browser;
+		String browser=System.getProperty("browser",flib.getDataFromPropertiesFile("browser"));
+		//String browser=Browser;
 		
 		if(browser.equals("chrome")) {
 			driver=new ChromeDriver();
@@ -70,9 +71,12 @@ public class BaseClass {
 	public void configBM() throws IOException {
 		
 		System.out.println("=======LoginToApplication========");
-		String url=flib.getDataFromPropertiesFile("url");
-		String username=flib.getDataFromPropertiesFile("username");
-		String password=flib.getDataFromPropertiesFile("password");
+		//String url=flib.getDataFromPropertiesFile("url");
+		//String username=flib.getDataFromPropertiesFile("username");
+		//String password=flib.getDataFromPropertiesFile("password");
+		String url=System.getProperty("url",flib.getDataFromPropertiesFile("url"));
+		String username=System.getProperty("username",flib.getDataFromPropertiesFile("username"));
+		String password=System.getProperty("password",flib.getDataFromPropertiesFile("password"));
 		LoginPage lp=new LoginPage(driver);
 		lp.loginToApp(url,username, password);
 		

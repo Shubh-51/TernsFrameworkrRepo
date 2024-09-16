@@ -30,7 +30,7 @@ public class ListenerImpClass implements ISuiteListener,ITestListener{
 		
 		String date=new Date().toString().replace(" ", "_").replace(":", "_");
 		
-		ExtentSparkReporter spark=new ExtentSparkReporter("./AdvanceReport/Reort_"+date+".html");
+		spark=new ExtentSparkReporter("./AdvanceReport/Reort_"+date+".html");
 		spark.config().setDocumentTitle("CRM_Terns_Reports");
 		spark.config().setReportName("Terns_CRM");
 		spark.config().setTheme(Theme.DARK);

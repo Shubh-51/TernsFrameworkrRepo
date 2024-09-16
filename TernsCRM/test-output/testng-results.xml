@@ -1,216 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-15T14:20:14 IST" name="Suite" finished-at="2024-09-15T14:24:13 IST" duration-ms="238311">
+  <suite started-at="2024-09-16T10:48:18 IST" name="Default suite" finished-at="2024-09-16T10:49:18 IST" duration-ms="59827">
     <groups>
       <group name="SmokeTest">
-        <method signature="CreateQutoesTest.createQuoteWithMandatoryInformationTest()[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" name="createQuoteWithMandatoryInformationTest" class="com.crm.tp.terns.quotestest.CreateQutoesTest"/>
-        <method signature="VendorTest.createVendorTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" name="createVendorTest" class="com.crm.tp.terns.vendorstest.VendorTest"/>
-        <method signature="CreateProductTest.createProductWithMandatoryInformationTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" name="createProductWithMandatoryInformationTest" class="com.crm.tp.terns.productstest.CreateProductTest"/>
+        <method signature="VendorTest.createVendorTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" name="createVendorTest" class="com.crm.tp.terns.vendorstest.VendorTest"/>
       </group> <!-- SmokeTest -->
-      <group name="RegressionTest">
-        <method signature="DeleteQuoteTest.deleteAlreadyCreatedQuoteTest()[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" name="deleteAlreadyCreatedQuoteTest" class="com.crm.tp.terns.quotestest.DeleteQuoteTest"/>
-        <method signature="EditQuotesTest.createQuoteAndEditSubjectOfQuoteTest()[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" name="createQuoteAndEditSubjectOfQuoteTest" class="com.crm.tp.terns.quotestest.EditQuotesTest"/>
-        <method signature="VendorTest.CreatevendorWithGLDDTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" name="CreatevendorWithGLDDTest" class="com.crm.tp.terns.vendorstest.VendorTest"/>
-        <method signature="CreateProductTest.createProductWithProductImageInformationTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" name="createProductWithProductImageInformationTest" class="com.crm.tp.terns.productstest.CreateProductTest"/>
-        <method signature="CreateProductTest.createProductWithSupportDateAndSalesDateTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" name="createProductWithSupportDateAndSalesDateTest" class="com.crm.tp.terns.productstest.CreateProductTest"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2024-09-15T14:20:14 IST" name="EdgeTest" finished-at="2024-09-15T14:21:12 IST" duration-ms="57556">
+    <test started-at="2024-09-16T10:48:18 IST" name="Default test" finished-at="2024-09-16T10:49:18 IST" duration-ms="59827">
       <class name="com.crm.tp.terns.vendorstest.VendorTest">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:14 IST" name="configBC" finished-at="2024-09-15T14:20:17 IST" duration-ms="2990" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:17 IST" name="configBM" finished-at="2024-09-15T14:20:24 IST" duration-ms="7067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="CreatevendorWithGLDDTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:24 IST" name="CreatevendorWithGLDDTest" finished-at="2024-09-15T14:20:42 IST" duration-ms="17564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreatevendorWithGLDDTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:42 IST" name="configAM" finished-at="2024-09-15T14:20:45 IST" duration-ms="2842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:45 IST" name="configBM" finished-at="2024-09-15T14:20:51 IST" duration-ms="6543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createVendorTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:20:51 IST" name="createVendorTest" finished-at="2024-09-15T14:21:07 IST" duration-ms="15785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVendorTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:21:07 IST" name="configAM" finished-at="2024-09-15T14:21:10 IST" duration-ms="3108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@1a75e76a]" started-at="2024-09-15T14:21:10 IST" name="configAC" finished-at="2024-09-15T14:21:12 IST" duration-ms="1610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crm.tp.terns.vendorstest.VendorTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2024-09-15T14:20:14 IST" name="FireFoxTest" finished-at="2024-09-15T14:22:18 IST" duration-ms="123315">
-      <class name="com.crm.tp.terns.productstest.CreateProductTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:20:14 IST" name="configBS" finished-at="2024-09-15T14:20:14 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:48:18 IST" name="configBS" finished-at="2024-09-16T10:48:18 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:20:14 IST" name="configBC" finished-at="2024-09-15T14:20:58 IST" duration-ms="43758" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:48:18 IST" name="configBC" finished-at="2024-09-16T10:48:21 IST" duration-ms="2396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:20:58 IST" name="configBM" finished-at="2024-09-15T14:21:05 IST" duration-ms="6815" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:48:21 IST" name="configBM" finished-at="2024-09-16T10:48:36 IST" duration-ms="14777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createProductWithMandatoryInformationTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:05 IST" name="createProductWithMandatoryInformationTest" finished-at="2024-09-15T14:21:22 IST" duration-ms="16702" status="PASS">
+        <test-method signature="createVendorTest()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:48:36 IST" name="createVendorTest" finished-at="2024-09-16T10:49:14 IST" duration-ms="38778" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProductWithMandatoryInformationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:22 IST" name="configAM" finished-at="2024-09-15T14:21:24 IST" duration-ms="2589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:24 IST" name="configBM" finished-at="2024-09-15T14:21:30 IST" duration-ms="5334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createProductWithProductImageInformationTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:30 IST" name="createProductWithProductImageInformationTest" finished-at="2024-09-15T14:21:47 IST" duration-ms="17284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createProductWithProductImageInformationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:47 IST" name="configAM" finished-at="2024-09-15T14:21:50 IST" duration-ms="2951" status="PASS">
+        </test-method> <!-- createVendorTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:49:14 IST" name="configAM" finished-at="2024-09-16T10:49:17 IST" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:50 IST" name="configBM" finished-at="2024-09-15T14:21:56 IST" duration-ms="6309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createProductWithSupportDateAndSalesDateTest()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:21:56 IST" name="createProductWithSupportDateAndSalesDateTest" finished-at="2024-09-15T14:22:14 IST" duration-ms="17917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createProductWithSupportDateAndSalesDateTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:22:14 IST" name="configAM" finished-at="2024-09-15T14:22:17 IST" duration-ms="2726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:22:17 IST" name="configAC" finished-at="2024-09-15T14:22:18 IST" duration-ms="894" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:49:17 IST" name="configAC" finished-at="2024-09-16T10:49:18 IST" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.tp.terns.productstest.CreateProductTest@2767e23c]" started-at="2024-09-15T14:24:13 IST" name="configAS" finished-at="2024-09-15T14:24:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.tp.terns.vendorstest.VendorTest@2cf3d63b]" started-at="2024-09-16T10:49:18 IST" name="configAS" finished-at="2024-09-16T10:49:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.crm.tp.terns.productstest.CreateProductTest -->
-    </test> <!-- FireFoxTest -->
-    <test started-at="2024-09-15T14:20:14 IST" name="ChromeTest" finished-at="2024-09-15T14:24:13 IST" duration-ms="238311">
-      <class name="com.crm.tp.terns.quotestest.EditQuotesTest">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" started-at="2024-09-15T14:20:14 IST" name="configBC" finished-at="2024-09-15T14:20:16 IST" duration-ms="1804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" started-at="2024-09-15T14:20:16 IST" name="configBM" finished-at="2024-09-15T14:20:23 IST" duration-ms="6641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createQuoteAndEditSubjectOfQuoteTest()[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" started-at="2024-09-15T14:20:23 IST" name="createQuoteAndEditSubjectOfQuoteTest" finished-at="2024-09-15T14:21:50 IST" duration-ms="87443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createQuoteAndEditSubjectOfQuoteTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" started-at="2024-09-15T14:21:50 IST" name="configAM" finished-at="2024-09-15T14:21:53 IST" duration-ms="3059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.quotestest.EditQuotesTest@7674f035]" started-at="2024-09-15T14:21:53 IST" name="configAC" finished-at="2024-09-15T14:21:54 IST" duration-ms="785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crm.tp.terns.quotestest.EditQuotesTest -->
-      <class name="com.crm.tp.terns.quotestest.CreateQutoesTest">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" started-at="2024-09-15T14:21:54 IST" name="configBC" finished-at="2024-09-15T14:21:55 IST" duration-ms="1152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" started-at="2024-09-15T14:21:55 IST" name="configBM" finished-at="2024-09-15T14:22:01 IST" duration-ms="6220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createQuoteWithMandatoryInformationTest()[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" started-at="2024-09-15T14:22:01 IST" name="createQuoteWithMandatoryInformationTest" finished-at="2024-09-15T14:22:53 IST" duration-ms="51447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createQuoteWithMandatoryInformationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" started-at="2024-09-15T14:22:53 IST" name="configAM" finished-at="2024-09-15T14:22:55 IST" duration-ms="2427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.quotestest.CreateQutoesTest@248e319b]" started-at="2024-09-15T14:22:55 IST" name="configAC" finished-at="2024-09-15T14:22:56 IST" duration-ms="702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crm.tp.terns.quotestest.CreateQutoesTest -->
-      <class name="com.crm.tp.terns.quotestest.DeleteQuoteTest">
-        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" started-at="2024-09-15T14:22:56 IST" name="configBC" finished-at="2024-09-15T14:22:57 IST" duration-ms="1150" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" started-at="2024-09-15T14:22:57 IST" name="configBM" finished-at="2024-09-15T14:23:03 IST" duration-ms="5604" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="deleteAlreadyCreatedQuoteTest()[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" started-at="2024-09-15T14:23:03 IST" name="deleteAlreadyCreatedQuoteTest" finished-at="2024-09-15T14:24:10 IST" duration-ms="67434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAlreadyCreatedQuoteTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" started-at="2024-09-15T14:24:10 IST" name="configAM" finished-at="2024-09-15T14:24:12 IST" duration-ms="1759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tp.terns.quotestest.DeleteQuoteTest@5d0bf09b]" started-at="2024-09-15T14:24:12 IST" name="configAC" finished-at="2024-09-15T14:24:13 IST" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crm.tp.terns.quotestest.DeleteQuoteTest -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.crm.tp.terns.vendorstest.VendorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

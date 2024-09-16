@@ -19,7 +19,7 @@ public class ListenerImpClass implements ISuiteListener, ITestListener {
 
 	public ExtentSparkReporter spark;
 	public ExtentReports report;
-	public ExtentTest test;
+	public static ExtentTest test;
 
 	@Override
 	public void onStart(ISuite suite) {
@@ -36,6 +36,7 @@ public class ListenerImpClass implements ISuiteListener, ITestListener {
 		report.setSystemInfo("Operating_System", "Windows");
 		report.setSystemInfo("Browser", "chrome");
 		report.setSystemInfo("Browser_version", "120");
+		
 		ISuiteListener.super.onStart(suite);
 	}
 

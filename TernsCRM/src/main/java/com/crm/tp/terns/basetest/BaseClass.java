@@ -25,6 +25,10 @@ import com.crm.tp.terns.webdriverutility.JavaUtility;
 import com.crm.tp.terns.webdriverutility.UtilityObjectClass;
 import com.crm.tp.terns.webdriverutility.WebDriverUtility;
 
+/**
+ * This class contains all the Configure Annotations of The testNG
+ */
+
 public class BaseClass {
 	
 	public WebDriver driver=null;
